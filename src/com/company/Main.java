@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -15,6 +16,33 @@ public class Main {
         List<Integer> listOfInteger;
         HashMap<Integer, String> hashMap;
         HashSet<String> hashSet;
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
+        linkedList.add(13);
+        linkedList.add(14);
+        linkedList.add(15);
+//        linkedList.
+
+        System.out.println();
+        System.out.println(linkedList);
+        System.out.println();
+
+        System.out.println("now adding - first");
+        linkedList.addFirst(12);
+
+
+        System.out.println();
+        System.out.println(linkedList);
+        System.out.println();
+
+        System.out.println(linkedList.pop());
+        System.out.println(linkedList);
+
+        System.out.println(linkedList.remove(-1));
+        System.out.println(linkedList);
+
+
+
 
         int x[] = {1,2,3};
         int y[] = {32,16,13};
@@ -39,7 +67,7 @@ public class Main {
         carSells.put("Volvo", 33);
         carSells.put("BMW", 3233);
         carSells.put("MAZDA", 13);
-        
+
         System.out.println(carSells);
 
 
