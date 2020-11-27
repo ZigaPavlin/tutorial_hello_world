@@ -38,14 +38,16 @@ public class Main {
         System.out.println(linkedList.pop());
         System.out.println(linkedList);
 
-        System.out.println(linkedList.remove(-1));
+        System.out.println(linkedList.remove(2));
         System.out.println(linkedList);
 
 
 
 
-        int x[] = {1,2,3};
-        int y[] = {32,16,13};
+        int[] x = {1,2,3};
+        int[] y;
+
+        y = new int[]{32,16,13};
 
         for (int i = 0; i < x.length; i++) {
             for (int j = 0; j < y.length; j++) {
@@ -55,7 +57,6 @@ public class Main {
 
         HashSet<String> cars = new HashSet<String>();
         cars.add("Volvo");
-        cars.add("BMW");
         cars.add("Ford");
         cars.add("BMW");
         cars.add("Mazda");
